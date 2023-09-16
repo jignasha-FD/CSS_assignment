@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: beige;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.content {
+    display: block;
+}
+
+.content h1 {
+    background-color: rgb(68, 67, 67);
+    color: white;
+    text-align: center;
+    height: 160px;
+    margin: 10px 50px 0px 50px;
+    padding: 60px 10px 50px 10px;
+}
+
+.content p {
+    background-color: white;
+    color: black;
+    height: 110px;
+    margin: 0px 50px 10px 50px;
+    padding: 10px 15px 50px 25px;
+}
+
+.content button {
+    margin-top: 10px;
+    padding: 2px 5px;
+}
+
+.content a {
+    text-decoration: none;
+    margin-left: 100px;
+    padding-left: 100px;
+    color: black;
+}
+
